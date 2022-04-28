@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8" />
     <title>Vince Kelly</title>
     <meta
@@ -10,22 +8,13 @@
       content="Superior advocacy, negotiation and representational skills and a confident ability to communicate with varied and complex stakeholders and audiences"
     />
     <meta name="author" content="Vince Kelly" />
-
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="preload" as="font" />
     <link
       href="//fonts.googleapis.com/css?family=Raleway:400,300,600&display=swap"
       rel="stylesheet"
       type="text/css"
     />
-
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css" />
     <style>
       body {
@@ -38,9 +27,8 @@
         background-position: bottom;
         background-size: cover;
         font-size: 0.9rem;
-        line-height: 1.2rem;
+        line-height: 1.5rem;
       }
-
       main {
         width: 85vw;
         background-color: whitesmoke;
@@ -50,10 +38,22 @@
         margin-left: auto;
         margin-right: auto;
       }
-      p img {
-        float: right;
+      .wrapper img {
         margin: 0px 30px 10px 30px;
         border: #425364 1px solid;
+      }
+      .wrapper {
+        float: right;
+        }
+      @media screen and (max-width: 600px) {
+        .wrapper {
+          float: none;
+          clear: both;
+        }
+        .wrapper img {
+          display:block;
+    margin:0 auto 15px auto;
+        }
       }
       h3 {
         color: #425364;
@@ -81,7 +81,7 @@
         text-transform: uppercase;
         font-weight: 300;
         font-size: 3rem;
-        line-height: 2.1rem;
+        line-height: 3rem;
       }
       h1 strong {
         font-weight: 900;
@@ -106,9 +106,6 @@
         }
       }
     </style>
-
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link rel="icon" type="image/png" href="images/favicon-16.png" />
     <link rel="icon" href="images/favicon-32x32.png" sizes="32x32" />
@@ -128,11 +125,15 @@
         <h3>About</h3>
         <hr />
         <p>
+          <div class="wrapper">
           <img
-            src="images/vince-kelly-pic.png" width="225px" height="280px"
+            src="images/vince-kelly-pic.png"
+            width="225px"
+            height="280px"
             alt="Vince Kelly portate photo"
             title="Vince Kelly"
           />
+        </div>
           My career evolved from early operational roles in community policing
           and as a Senior Detective undertaking complex and sensitive criminal
           investigations, progressing to senior management roles, working
