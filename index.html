@@ -17,8 +17,9 @@
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="preload" as="font" />
     <link
-      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600&display=swap"
       rel="stylesheet"
       type="text/css"
     />
@@ -98,7 +99,9 @@
         text-decoration: underline;
       }
       @media print {
-        body, header, h1 {
+        body,
+        header,
+        h1 {
           color: black !important;
         }
       }
